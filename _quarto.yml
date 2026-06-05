@@ -13,13 +13,13 @@ website:
       - about.qmd
     right:
       - icon: github
-        href: https://github.com/yourname
+        href: https://github.com/life00
     search: true
   page-footer:
     left: "© 2026 life00"
     right:
       - icon: github
-        href: https://github.com/yourname
+        href: https://github.com/life00
 
 format:
   html:

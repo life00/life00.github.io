@@ -8,4 +8,4 @@ listing:
   feed: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Hello there! This is my personal website where you can find articles about some of my projects.

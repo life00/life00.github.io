@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: https://avatars.githubusercontent.com/u/1
+image: https://avatars.githubusercontent.com/u/108618401
 about:
   template: jolla
   image-shape: round
@@ -11,4 +11,4 @@ about:
       href: https://github.com/life00
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+I am a finance student. I like programming, data science, and linux.
