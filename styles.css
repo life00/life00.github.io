@@ -1,0 +1,11 @@
+/* content is slightly wider on large screens */
+@media (min-width: 1200px) {
+  .page-columns {
+    grid-template-columns: [screen-start] 1fr [page-start] minmax(0, 800px) [page-end] 1fr [screen-end];
+  }
+}
+
+/* listing cards feel less cramped */
+.card {
+  border-radius: 8px;
+}

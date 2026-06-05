@@ -1,0 +1,14 @@
+---
+title: "About"
+image: https://avatars.githubusercontent.com/u/1
+about:
+  template: jolla
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/life00
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

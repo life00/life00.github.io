@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "life00"
+  site-url: https://life00.github.io
+  description: "Personal website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/yourname
+    search: true
+  page-footer:
+    left: "© 2026 life00"
+    right:
+      - icon: github
+        href: https://github.com/yourname
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
