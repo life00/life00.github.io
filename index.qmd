@@ -8,4 +8,6 @@ listing:
   feed: true
 ---
 
-Hello there! This is my personal website where you can find articles about some of my projects.
+Hi, I'm Ivan. I work at the intersection of finance and data science. 
+
+This is where I share my latest projects and write about quantitative research.
