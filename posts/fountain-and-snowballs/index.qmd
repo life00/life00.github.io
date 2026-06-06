@@ -1,0 +1,48 @@
+---
+title: "Fountain and Snowballs"
+description: "Snowy application of probability theory"
+author: "Ivan"
+date: "2024-10-02"
+categories: [probability theory, probability puzzle]
+---
+
+# Introduction
+
+It was the end of exam period during winter holidays. There was a thin layer of snow everywhere. While walking through the city center I noticed a fountain covered with a thin layer of snow. I casually started throwing snowballs into the fountain. The snowballs were passing through the snow layer and creating holes. Then I thought of a game: what if I throw multiple snowballs to clear out holes, and then take one final throw to score into those previously made holes? Afterwards, I thought to myself: *What is the probability to score into a hole with that final snowball?*, and I realized this can be calculated using basic statistics!
+
+# Information
+
+* area of the fountain
+  * $S_{f}=1,000\ \text{cm}^2$
+* average area of the hole created from a snowball
+  * $S_{E(s)}=10\ \text{cm}^2$
+* total number of snowballs thrown ($x-1$ setup throws + $1$ final target throw)
+  * $X$
+* probability of success on the final throw
+  * $P(S_x)$
+* probability of failure on the final throw
+  * $P(F_x)$
+
+# Assumptions
+
+* The person who throws the snowballs is throwing them completely randomly
+* All throws will always be scored somewhere within the area of the fountain
+* The first $x-1$ setup throws each create a brand new, unique hole in the snow layer that does not overlap with any previously made holes
+* The final ($x$-th) throw scores a success if it lands inside an existing hole, and a failure if it lands on remaining snow
+
+# Solution
+
+The first $x-1$ setup throws clear a total area equal to $S_{E(s)} \cdot (x-1)$. Because the final throw lands completely randomly, the probability of it landing in a hole scales linearly with the total area cleared by the setup throws. Considering that the area of the fountain ($S_f$) is limited, after a certain number of setup throws the probability of success on the final throw will be $100\%$.
+
+* number of attempts to achieve maximum probability
+  * $\displaystyle X_{\text{max}}=\frac{S_{f }}{S_{E(s)}}+1=\frac{1,000 }{10 }+1=101$
+  * $+1$ accounts for the final target throw
+* probability function
+  * $\displaystyle\frac{S_{E(x)}\cdot(x-1)}{S_f}=\frac{10(x-1)}{1,000}=\frac{x }{100 }-\frac{1 }{100}=0.01x-0.01$
+  * $p(x)=\begin{cases}0.01x-0.01 &x \in \{1,2,3,\dots,100\}\\ 1&x\ge 101\\0&\text{otherwise}\end{cases}$
+* example
+  * What is the probability of scoring on the final throw if you throw $20$ snowballs in total ($19$ setup throws $+$ $1$ target throw)?
+  * $P(S_{20})=p(20)=0.19$
+  * $P(F_{20})=1-p(20)=0.81$
+
+Of course, these assumptions are quite unrealistic for a real-world game, but they allow to explore this elegant probability puzzle!
