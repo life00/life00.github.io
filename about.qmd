@@ -15,7 +15,7 @@ Hi, I'm Ivan. I work at the intersection of finance and data science.
 
 <div style="text-align: left; max-width: 450px; margin: 0 auto; line-height: 2;">
 
-**Skills:** Python, SQL, Git, Linux, Neovim, _and more..._
+**Skills:** Python, R, Go, SQL, Git, Linux, Neovim, _and more..._
 
 **Focus:** Quantitative Research, Predictive Modeling & ML
 
