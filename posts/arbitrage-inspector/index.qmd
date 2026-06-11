@@ -7,7 +7,9 @@ image: "network.png"
 categories: [arbitrage, cryptocurrency, graph theory, optimization]
 ---
 
-![](network.png){.preview-image}
+![A large currency network of cryptocurrencies and markets across ten crypto exchanges](network.png){#fig-network .preview-image}
+
+<span style="color:#888;font-size:0.85em;">Nodes (currencies) are colored based on type (stablecoin, major, meme, altcoin). Edges (markets) inside an exchange take that exchange's color. Gray edges connect the same currency across different exchanges.</span>
 
 # Introduction
 
@@ -59,7 +61,7 @@ To make it easier to grasp, I also created a much simpler example of the graph m
 
 ```{python}
 # | label: fig-graph-model
-# | fig-cap: "multi-exchange currency system represented as a graph"
+# | fig-cap: "Multi-exchange currency system represented as a graph"
 # | echo: false
 import plotly.graph_objects as go
 import random
@@ -230,7 +232,7 @@ The main control flow process is split into four key stages: initialization, per
 <details>
 <summary>Process control flow (click to expand)</summary>
 
-![Process control flow](process.png)
+![Process control flow](process.png){#fig-process}
 
 </details>
 
