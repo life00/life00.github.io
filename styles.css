@@ -9,3 +9,16 @@
 .card {
   border-radius: 8px;
 }
+
+/* rounded corners for listing page thumbnail images */
+.thumbnail-image {
+  border-radius: 12px;
+}
+
+/* rounded corners for preview image on the blog post itself */
+.preview-image {
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}

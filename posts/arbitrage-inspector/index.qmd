@@ -3,8 +3,11 @@ title: "Arbitrage Inspector: Why Real Arbitrage Is Harder Than It Looks"
 description: "Real time detection of real arbitrage opportunities in multi-exchange cryptocurrency markets: <https://github.com/life00/arbitrage-inspector>"
 author: "Ivan"
 date: "2026-06-05"
+image: "network.png"
 categories: [arbitrage, cryptocurrency, graph theory, optimization]
 ---
+
+![](network.png){.preview-image}
 
 # Introduction
 
@@ -50,7 +53,9 @@ With this implementation model there are two kinds of transactions:
 
 Different treatment is applied to each type of transaction. This will be further explained in the following sections.
 
-Below you may see an interactive example of the graph model with two exchanges and several currencies:
+To understand the model better, I created two example illustrations. At the top of the page you can see a part of a very large currency network consisting of ten exchanges, more than a thousand nodes, and thousands of edges. It was built using data obtained with Arbitrage Inspector. It demonstrates the full scale of the arbitrage detection problem.
+
+To make it easier to grasp, I also created a much simpler example of the graph model with two exchanges and several currencies:
 
 ```{python}
 # | label: fig-graph-model
