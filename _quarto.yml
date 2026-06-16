@@ -27,4 +27,5 @@ format:
       - darkly
       - theme.scss
     css: styles.css
+    favicon: https://avatars.githubusercontent.com/u/108618401
     toc: true
